@@ -1,0 +1,134 @@
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        font-family: Arial;
+        border: border-box;
+    }
+    
+.container1{
+    
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    padding-left: 0%;
+    
+}
+.eng{
+    padding-left: 100%;
+    
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ENG{
+    margin-right: 100px;
+   
+}
+.search1{
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 70%;
+    margin-right: 150px;
+}
+.get{
+    height: 50px;
+}
+.h1t{
+    font-size: 44px;
+}
+.body-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.watch{
+    font-size: 43px;
+    font-weight: 501;
+
+}
+.left-item{
+    padding-left: 0;
+    width: 70%;
+    gap: 20px;
+}
+.right-item > video{
+    position: absolute;
+    left: 49px;
+    top: 10%;
+    z-index: -1;
+    width: 55%;
+    height: 77%;
+    
+}
+.img6{
+    width: 75%;
+    height: 100%;
+}
+.B{
+    flex-direction: column-reverse;
+    
+}
+.watch2{
+    font-size: 33px;
+}
+.st1{
+    width: 260px;
+    height: 70px;
+    top: 70%;
+    left: 44px;
+    justify-content: space-around;
+}
+.st1p{
+    inline-size: 50px;
+}
+.img{
+    inline-size: 80%;
+}
+.img7{
+    width: 97%;
+    height: 97%;
+}
+.question-box{
+    align-items: center;
+    justify-content: center;
+}
+.question-box .Q-box1 h1{
+    font-size: 30px;
+}
+.Q-box2{
+    font-size: 20px;
+}
+.h3{
+    margin-left: 15%;
+    width: 70%;
+   
+}
+.default-ltr-cache-btlj1ue1w590cc1{
+    padding-left: 0;
+    font-size: 18px;
+}
+.last2{
+    margin-right: 5%;
+    height: 40px;
+}
+.question-box .Q-box2 span{
+    font-size: 30px;
+}
+}
